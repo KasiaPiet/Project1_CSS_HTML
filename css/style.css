@@ -116,3 +116,44 @@ body {
 }
 
 /* END OF FEATURES SECTION */
+
+/* ABOUT SECTION */
+
+.about {
+  background-color: #f1c40f;
+  padding: 40px;
+}
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.about__info {
+  width: 48%;
+  color: white;
+}
+.about__header {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.about__text {
+  font-size: 1.5rem;
+}
+.about__image {
+  flex-basis: 48%;
+  height: 250px;
+}
+.about__image--img {
+  background-image: url(../img/team.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 
+END OF ABOUT SECTION */
+
+/* TESTIMONIALS SECTION */
