@@ -6,7 +6,7 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 /* .btn--small{
@@ -17,9 +17,12 @@ body {
 
 .nav {
   position: fixed;
+  max-width: 1200px;
+  margin: 0 auto;
   top: 0;
+  right: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
   background-color: #2c3e50;
   /* margin-bottom: 50px; */
 }
@@ -87,3 +90,29 @@ body {
   margin-top: 20px;
 }
 /* END OF HERO SECTION */
+
+/* FEATURES SECTION */
+
+.features__info {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #34495e;
+}
+
+.features__item {
+  flex-basis: 30%;
+  text-align: center;
+}
+.fa-solid {
+  font-size: 6rem;
+  margin-bottom: 10px;
+}
+.features__header,
+.features__subheader {
+  margin: 10px 0;
+  font-size: 1.7rem;
+}
+
+/* END OF FEATURES SECTION */
