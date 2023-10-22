@@ -157,3 +157,126 @@ body {
 END OF ABOUT SECTION */
 
 /* TESTIMONIALS SECTION */
+.testimonials__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 30px;
+  color: #2c3e50;
+  align-items: center;
+}
+.testimonials__arrow {
+  flex-basis: 8%;
+}
+.fa-solid {
+  font-size: 3rem;
+}
+.testimonials {
+  flex-basis: 80%;
+  text-align: center;
+}
+.testimonials__text {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+hr {
+  margin: 2rem auto;
+  width: 30%;
+  min-width: 200px;
+}
+
+figure {
+  margin: 50px auto;
+}
+.testimonials__avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.testimonials__name {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+/* END OF TESTIMONIALS */
+
+/* CONTACT SECTION */
+
+.contact {
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px;
+}
+.contact__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.contact__info {
+  flex-basis: 45%;
+}
+.contact__form {
+  flex-basis: 45%;
+  text-align: center;
+}
+.contact__header {
+  font-size: 2.1rem;
+  margin-bottom: 20px;
+}
+.contact__text {
+  font-size: 1.6rem;
+}
+.contact__adress-line {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.contact__adress-line p,
+.contact__adress-line .fa-solid {
+  font-size: 1.9rem;
+  margin: 0 5px;
+}
+.contact__rule {
+  margin: 20px 0;
+  text-align: left;
+}
+input,
+textarea {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: white;
+  font-size: 1.3rem;
+}
+input:focus,
+textarea:focus {
+  outline: none; /* Usuń domyślną obwódkę */
+}
+input::placeholder,
+textarea::placeholder {
+  color: white;
+}
+.contact__btn-submit {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 2rem;
+  background-color: #2ecc71;
+  color: white;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.contact__btn-submit:hover {
+  background-color: #27ae60;
+}
+/* END OF CONTACT SECTION */
+
+/* FOOTER SECTION */
